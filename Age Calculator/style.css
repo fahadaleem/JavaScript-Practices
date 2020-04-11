@@ -1,0 +1,35 @@
+*
+{
+    font-family: "roboto";
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    color:white;
+}
+
+
+body
+{
+    background-color: coral;
+    padding-top: 5%;
+}
+
+section
+{
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgb(70, 60, 60);
+    padding:50px;
+}
+
+.title
+{
+    font-size: 30px;
+}
+
+.form-control
+{
+    font-size: 1.5rem;
+}
+
