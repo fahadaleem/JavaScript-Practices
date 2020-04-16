@@ -1,0 +1,93 @@
+*
+{
+    font-family: 'Delius', cursive;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: #60C5B6;
+}
+
+
+
+section
+{
+    width: 50%;
+    border-radius: 10px;
+    background-color: #3E3C3E;
+    padding: 20px;
+    margin-top: 8%;
+    margin-left: 25%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-right: 50px;
+}
+
+.container
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1
+{
+    color:#60C5B6;
+    border-left: 5px solid #60C5B6;
+    padding-left: 10px;
+    width: 30%;
+    margin-top: 40%;
+    margin-left: 20%;
+    font-size: 35px;
+    
+}
+
+.right
+{
+    width: 60%;
+    color:white;
+}
+
+.input-fields
+{
+    background-color: transparent;
+    width: 100%;
+    padding: 0px 10px 10px 0px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid gray;
+    color:rgb(206, 204, 204);
+    margin: 10px;
+}
+
+.btn-center
+{
+    text-align: center;
+}
+
+.btn
+{
+    background-color: transparent;
+    padding: 10px;
+    border: none;
+    color:#60C5B6;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+    outline: none;
+}
+
+
+
+#text-center
+{
+    text-align: center;
+}
+.result-heading
+{
+    color:#60C5B6;
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
