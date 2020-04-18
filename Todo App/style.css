@@ -1,0 +1,128 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "roboto";
+}
+
+body
+{
+    background-color: seagreen;
+}
+
+#todo-section
+{
+    background-color: white;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 3%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+h1
+{
+    font-weight:300;
+}
+
+#day
+{
+    font-weight: bold;
+}
+
+
+
+#numberOfTasks
+{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 5%;
+}
+
+.right
+{
+    margin-right: 10%;
+}
+
+h3
+{
+    color:gray;
+    font-size: 24px;
+}
+
+
+ul
+{
+    margin-top: 10%;
+    list-style: none;
+    height: 300px;
+    overflow-y: auto;
+}
+
+.icons
+{
+    font-size: 22px;
+    color:gray;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.radio
+{
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top:2px
+}
+
+li
+{
+    font-size: 22px;
+    text-transform: capitalize;
+}
+
+#input
+{
+    font-size: 20px;
+    padding: 5px 5px 5px 15px;
+    outline: none;
+    border:1px solid gray;
+    border-radius: 30px;
+
+}
+
+.form
+{
+    text-align: center;
+}
+
+.sent-icon
+{
+    border: 2px sold black;
+    font-size: 40px;
+    position: relative;
+    top: 5px;
+}
+
+.done
+{
+    text-decoration: line-through;
+    color:gray;
+}
+
+@media screen and (max-width:760px)
+{
+    #todo-section
+    {
+        width: 90%;
+    }
+    #input
+    {
+        width: 80%;
+    }
+    .right
+    {
+        margin-right: 8%;
+    }
+}
