@@ -1,0 +1,119 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bitter', serif;
+}
+
+
+body
+{
+    color:white;
+    background-color: #00b894;
+}
+
+
+#section
+{
+    margin:0 auto;
+    width: 70%;
+    text-align: center;
+    margin-top: 10vw;
+    padding: 20px;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    background-color: #2C3A47;
+}
+
+h1
+{
+    font-size: 3.5vw;
+    letter-spacing: .2rem;
+}
+
+#input-field
+{
+    margin-top: 1vw;
+}
+
+
+#input-text
+{
+    padding: 10px;
+    width: 70%;
+    font-size: 1.4rem;
+    outline: none;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid white;
+    color:white;
+}
+
+.progress
+{
+    width: 70%;
+    border: 1px solid white;
+    margin:0 auto;
+    margin-top: 3vw;
+    border-radius: 20px;
+}
+
+.width
+{
+    width: 10%;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.weak
+{
+    background-color:red;
+    width: 30%;
+    padding: 10px;
+    border-radius: 20px;
+    transition: width 2s;
+    font-weight: bolder;
+}
+
+
+.good
+{
+    background-color:green;
+    width: 60%;
+    padding: 10px;
+    border-radius: 20px;
+    transition: width 2s;
+    font-weight: bolder;
+}
+
+
+.strong
+{
+    background-color: #0984e3;
+    width:100%;
+    padding: 10px;
+    border-radius: 20px;
+    transition: width 2s;
+    font-weight: bolder;
+}
+
+#label
+{
+    position: relative;
+    top:10px;
+    font-weight: bolder;
+}
+
+#done
+{
+    display: none;
+}
+
+::placeholder
+{
+    color:rgb(199, 196, 196);
+}
